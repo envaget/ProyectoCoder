@@ -1,0 +1,199 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+body {
+    font-family: sans-serif;
+    margin: 0 ;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    min-height: 5%;
+    background-color: slategray;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    position: sticky;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 100px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+
+
+
+
+
+div {
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body{
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1600px;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.galeria_productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.producto__container img {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.producto__container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-around;
+    border-style: outset;
+    padding: 10px;
+    margin: 5px;
+}
+
+.Uno {
+    display: flex;
+    justify-content: center;
+}
+
+.Dos {
+    display: flex;
+    justify-content: center;
+}
+
+h5 {
+    color: bisque;
+}
+
+
+
+.textito {
+    display: flex;
+    justify-content: center center;
+    padding: 50px;
+    color: azure;
+    margin: 20px;
+    border-style: outset;
+    border-width: 5px;
+}
+
+h2 {
+    color: azure;
+    text-align: center;
+}
+
+
+.nosotros1 {
+    display: flex;
+    margin: 50px;
+}
+
+
+header {
+    background-image: url(img/) ;
+}
+
+
+
+div#banner{
+    width: 100%;
+    height: 400px;
+    background-color: #e3e3e3;
+    background-image: url(./img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+       
+}
+
+.arriba a {
+    display: flex;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+.redes{
+    display: flex;
+    justify-content: space-between;
+    
+    color: white;
+}
+
+.redes h6 {
+    margin-right: 10px ;
+}
+
+.sectionfooter {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 480px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.articulop {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nosotrosimg {
+    display: flex;
+    justify-content: center;
+}

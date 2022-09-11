@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 5px;
+}
+
+body{
+    background-image: url(../img/fondo.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1000px;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+}
+
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.gridimgs1 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+    justify-items: center ;
+    
+}
+
+
+/*RESPONSIVE*/
+
+@media (max-width: 480px) {
+    header{
+        flex-direction: column;
+    }
+
+.gridimgs1 {
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(12,1fr);
+}
+
+}
+
+li {
+    color: white ;
+
+    
+}
+
+a {
+    color: white;
+}
+
